@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Background from "../../../static/background-homepage.jpg";
 import { Container, Typography, withStyles } from "@material-ui/core";
 import { Icon } from "@iconify/react";
@@ -53,6 +54,7 @@ const styles = (theme) => ({
     },
     socialMediaIcon: {
         margin: theme.spacing(5),
+        color: '#ffffff',
         fontSize: "3em"
     }
 });
@@ -81,26 +83,18 @@ function HomePage(props) {
                         variant="h5"
                         className={classes.summary}
                     >
-                        This is my personal website powered by GitHub Pages.
-                    </Typography>
-                    <Typography
-                        component="div"
-                        color="inherit"
-                        align="center"
-                        variant="h5"
-                        className={classes.summary}
-                    >
-                        You may find more information about me in the following links.
+                        This is my personal website and you may find more information about me in the following links
+                         {/* and this is my <Link to="/resume" color="inherit">Resume</Link> if you are interested. */}
                     </Typography>
                 </div>
                 <div className={classes.socialMediaSection}>
-                    <a target="_blank" href="https://github.com/hopuichung">
+                    <a target="_parent" rel="noopener" href="https://github.com/hopuichung">
                         <Icon icon={githubSquare} className={classes.socialMediaIcon} />
                     </a>
-                    <a target="_blank" href="https://www.linkedin.com/in/pui-chung-ho-57b603171/">
+                    <a target="_parent" rel="noopener" href="https://www.linkedin.com/in/pui-chung-ho-57b603171/">
                         <Icon icon={linkedinIcon} className={classes.socialMediaIcon} />
                     </a>
-                    <a target="_blank" href="https://micho000222.medium.com/">
+                    <a target="_parent" rel="noopener" href="https://micho000222.medium.com/">
                         <Icon icon={mediumSquareFilled} className={classes.socialMediaIcon} />
                     </a>
                 </div>
