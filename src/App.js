@@ -2,8 +2,9 @@ import {
     Switch,
     Route
 } from "react-router-dom";
-import HomePage from "./components/pages/HomePage";
-import ResumePage from "./components/pages/ResumePage";
+import withRoot from "./modules/withRoot";
+import HomePage from "./modules/components/HomePage";
+import ResumePage from "./modules/components/ResumePage";
 
 function App() {
     return (
@@ -20,4 +21,4 @@ function App() {
     );
 }
 
-export default App;
+export default withRoot(App);
