@@ -92,10 +92,10 @@ function ResumePage(props) {
     return (
         <div className={classes.root}>
             <Grid container>
-                <Grid item xs={12} sm={3} className={classes.right}>
+                <Grid item xs={12} sm={5} md={4} className={classes.right}>
                     <PersonalInformation props={props} />
                 </Grid>
-                <Grid item xs={12} sm={9} className={classes.left}>
+                <Grid item xs={12} sm={7} md={8} className={classes.left}>
                     <Paper className={classes.paper}>
                         <Box className={classes.information}>
                             <WorkIcon className={clsx(classes.sectionIcon, classes.icon)} />
@@ -187,7 +187,7 @@ function ResumePage(props) {
                                             variant="body"
                                             className={classes.projectDetailTitle}
                                         >
-                                            China Sensitive Keyword Project
+                                            China Sensitive Keyword Search Service
                                         </Typography>
                                     </Box>
                                     <ul>
@@ -205,7 +205,7 @@ function ResumePage(props) {
                                             variant="body"
                                             className={classes.projectDetailTitle}
                                         >
-                                            eMarketingplace System 2.0 Revamp Project, Image Recognition Service
+                                            Image Recognition Service
                                         </Typography>
                                     </Box>
                                     <ul>
@@ -223,7 +223,7 @@ function ResumePage(props) {
                                             variant="body"
                                             className={classes.projectDetailTitle}
                                         >
-                                            Always-on Registration and Visitor Management System Integration
+                                            System Integration
                                         </Typography>
                                     </Box>
                                     <ul>
