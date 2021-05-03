@@ -86,7 +86,7 @@ function PersonalInformation(props) {
                 <Typography
                     variant="body"
                 >
-                    <a target="_parent" rel="noopener" href="https://www.linkedin.com/in/pui-chung-ho-57b603171/">
+                    <a target="_parent" rel="noopener" href="https://github.com/hopuichung">
                         Github
                     </a>
                 </Typography>
@@ -96,7 +96,7 @@ function PersonalInformation(props) {
                 <Typography
                     variant="body"
                 >
-                    <a target="_parent" rel="noopener" href="https://www.linkedin.com/in/pui-chung-ho-57b603171/">
+                    <a target="_parent" rel="noopener" href="https://micho000222.medium.com/">
                         Medium
                     </a>
                 </Typography>
